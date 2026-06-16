@@ -3,7 +3,6 @@ from pathlib import Path
 
 import pygame
 
-
 BASE_DIR = Path(__file__).resolve().parent
 IMG_DIR = BASE_DIR / "img"
 
@@ -15,7 +14,7 @@ TILE_SIZE = 35
 PLAYER_WIDTH = 30
 PLAYER_HEIGHT = 60
 PLAYER_CROUCH_HEIGHT = 42
-PLAYER_SPEED = 5
+PLAYER_SPEED = 3
 JUMP_STRENGTH = -15
 GRAVITY = 1
 MAX_FALL_SPEED = 10
