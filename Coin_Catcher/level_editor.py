@@ -3,7 +3,6 @@ from pathlib import Path
 
 import pygame
 
-
 BASE_DIR = Path(__file__).resolve().parent
 IMG_DIR = BASE_DIR / "img"
 
